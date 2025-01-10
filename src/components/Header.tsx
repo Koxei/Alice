@@ -6,7 +6,7 @@ const Header = () => {
       <div className="flex justify-between items-center">
         <div className="flex gap-4">
           <a
-            href="https://x.com/Ai_Emili"
+            href="https://x.com/kolwaii"
             target="_blank"
             rel="noopener noreferrer"
             className="text-heading hover:opacity-80 transition-opacity"
