@@ -8,6 +8,11 @@
 @layer base {
   body {
     @apply bg-background text-white min-h-screen overflow-hidden flex items-center justify-center;
+    background-image: url('/lovable-uploads/a89dd088-760b-4f17-97d5-d41ee8f07816.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
   }
 }
 
@@ -22,10 +27,10 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   border-radius: 12px;
-  animation: container-glitch 7s infinite;
+  animation: container-glitch 11s infinite;
+  box-shadow: 12px 12px 20px rgba(255, 192, 203, 0.5); /* Updated shadow to be more blurry */
 }
 
-/* Glitch container and pseudo-elements */
 .chat-container::before {
   content: '';
   position: absolute;
@@ -142,6 +147,10 @@
 
 .message-user {
   @apply border border-userMessage text-userMessage;
+}
+
+.message p {
+  @apply font-arcade text-xs leading-relaxed;
 }
 
 .message p {
