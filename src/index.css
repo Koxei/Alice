@@ -8,7 +8,8 @@
 @layer base {
   body {
     @apply bg-background text-white min-h-screen overflow-hidden flex items-center justify-center;
-    background-image: url('/lovable-uploads/bg1.png');
+    /*background-image: url('/lovable-uploads/bg1.png');*/
+    background-color: antiquewhite;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -21,7 +22,7 @@
   max-width: 1000px;
   height: 90vh;
   position: relative;
-  background-image: url('/lovable-uploads/emili.png');
+  background-image: url('/lovable-uploads/kolwaii.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

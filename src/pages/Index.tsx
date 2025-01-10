@@ -44,7 +44,7 @@ const Index = () => {
         {
           role: "system",
           content: `
-            Name: EMILI
+            Name: KOLWAII
             Age: 19
             Gender: Female
             Date of Birth: October 31
