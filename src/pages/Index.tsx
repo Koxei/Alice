@@ -44,7 +44,7 @@ const Index = () => {
         {
           role: "system",
           content: `
-            Name: MICA
+            Name: EMILI
             Age: 19
             Gender: Female
             Date of Birth: October 31
